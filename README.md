@@ -5,8 +5,8 @@ This Twitter-Clone project has two parts, they are Server and Client. To run the
 1.	Run Server Part: dotnet fsi Server.fsx  
 2.	Run Client Part: dotnet fsi Client.fsx  
 3.	To fully verify the functionality of Twitter Program, we recommend you to create multiple Clients.  
-4.	After creation of Client, you will see the main menu as bellow. You can input the index 1 to register account. (During registration process, RSA public and private key will be used to transmit information.)  
-5.	After registration, you can use the account you created to login. Bellow is the screenshot of menu after login.  
+4.	After creation of Client, you will see the main menu as bellow. You can input the index 1 to register account. (During registration process, RSA public and private key will be used to transmit information.)  ![Github](https://raw.githubusercontent.com/jindajia/Twitter-Clone/master/images/asset1.png)
+5.	After registration, you can use the account you created to login. Bellow is the screenshot of menu after login.  ![Github](https://raw.githubusercontent.com/jindajia/Twitter-Clone/master/images/asset2.png)
   1\)	To see all tweets sent by me.  
   2\)	To see all tweets related to me.(Include tweets sent by users of which I followed, and tweets which mentioned me.)  
   3\)	Send tweet  
