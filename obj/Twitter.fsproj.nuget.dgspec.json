@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jiajinda/Desktop/Course/dosp/HomeWork/Project4/Twitter/Twitter.fsproj": {}
+  },
+  "projects": {
+    "/Users/jiajinda/Desktop/Course/dosp/HomeWork/Project4/Twitter/Twitter.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jiajinda/Desktop/Course/dosp/HomeWork/Project4/Twitter/Twitter.fsproj",
+        "projectName": "Twitter",
+        "projectPath": "/Users/jiajinda/Desktop/Course/dosp/HomeWork/Project4/Twitter/Twitter.fsproj",
+        "packagesPath": "/Users/jiajinda/.nuget/packages/",
+        "outputPath": "/Users/jiajinda/Desktop/Course/dosp/HomeWork/Project4/Twitter/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jiajinda/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Data": {
+              "target": "Package",
+              "version": "[4.2.5, )",
+              "generatePathProperty": true
+            },
+            "Suave": {
+              "target": "Package",
+              "version": "[2.6.1, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
